@@ -8,7 +8,7 @@ resource "aws_instance" "Udacity_T2" {
   count = "4"
   ami = "ami-0e86e20dae9224db8"
   instance_type = "t2.micro"
-  subnet_id = "subnet-0dccbecc622237f45"
+  subnet_id = "subnet-09014b6f7c6591c0f"
   tags = {
     Name = "Udacity T2"
   }
@@ -19,7 +19,7 @@ resource "aws_instance" "Udacity_M4" {
   count = "2"
   ami = "ami-0e86e20dae9224db8"
   instance_type = "m4.large"
-  subnet_id = "subnet-091cc8a4a1687cdc7"
+  subnet_id = "subnet-0e523a8e2d1b20303"
   tags = {
     Name = "Udacity M4"
   }
