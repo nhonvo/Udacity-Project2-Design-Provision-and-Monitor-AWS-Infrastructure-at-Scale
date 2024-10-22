@@ -1,6 +1,5 @@
 # TODO: Designate a cloud provider, region, and credentials
 provider "aws" {
-  profile = "default"
   region = "us-east-1"
 }
 
