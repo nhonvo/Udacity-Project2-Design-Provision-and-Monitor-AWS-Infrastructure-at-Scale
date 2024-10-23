@@ -1,6 +1,6 @@
 ﻿Estimate summary,,,,,,,,,
 Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
-0,16995.13,203941.56,USD,,,,,,
+0,19496.5,233958,USD,,,,,,
 ,,* Includes upfront cost,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
@@ -13,9 +13,11 @@ My Estimate,US East (N. Virginia),,VPN Connection,0,0,0,USD,,
 My Estimate,US East (N. Virginia),Route 53 pricing,Amazon Route 53,0,130.5,1566,USD,,Hosted Zones (1)
 My Estimate,US East (N. Virginia),,Application Load Balancer,0,93.08,1116.96,USD,,Number of Application Load Balancers (2)
 My Estimate,US East (N. Virginia),VPC pricing,Network Address Translation (NAT) Gateway,0,348,4176,USD,,Number of NAT Gateways (2)
-My Estimate,US East (N. Virginia),2x db.r7g.12xlarge,Amazon Aurora MySQL-Compatible,0,"11,759.91",141118.92,USD,,"Aurora MySQL cluster configured with (Aurora Standard) option. Instance type set as (db.r7g.12xlarge), with (2 nodes), (100% utilization per month), and (memory optimized) instance family. Pricing model chosen as (OnDemand). Storage amount is (10 TB)."
+My Estimate,US East (N. Virginia),2x db.x2g.12xlarge,Amazon Aurora MySQL-Compatible,0,"14,261.28",171135.36,USD,,"Aurora MySQL cluster configured with (Aurora Standard) option. Instance type set as (db.r7g.12xlarge), with (2 nodes), (100% utilization per month), and (memory optimized) instance family. Pricing model chosen as (OnDemand). Storage amount is (10 TB)."
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
 Acknowledgement,,,,,,,,,
 "* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+,,,,,,,,,
+* Upgrade instance type of RDS to (db.x2g.12xlarge) vCPU: 48 Memory: 768 GiB Network Performance: 20 Gigabit,,,,,,,,,

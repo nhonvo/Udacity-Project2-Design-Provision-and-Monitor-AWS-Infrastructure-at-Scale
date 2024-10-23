@@ -1,4 +1,8 @@
-import os
+import logging
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
 
 def lambda_handler(event, context):
-    return "{} nhon dep trai from viet nam!".format(os.environ['greeting'])
+    logger.info("Lambda is invoked")
+    return "Hello, world!"
